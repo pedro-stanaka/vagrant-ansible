@@ -7,3 +7,18 @@
 
 - name: Install Git
   apt: pkg=git-core state=present
+
+- name: Install misc utils (Ubuntu)
+  apt: pkg={{ item }} state=present
+  with_items:
+  - htop
+  - curl
+  - tmux
+  - unzip
+  - python-software-properties      # Dependencies for the apt module
+  - software-properties-common
+  - python-pycurl
+  - vim
+
+- name: Set vim as default editor (Ubuntu)
+  command: update-alternatives --set editor /usr/bin/vim.basic

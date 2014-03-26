@@ -15,9 +15,9 @@ Vagrant Ansible creates a Vagrant installation for CakePHP using Ansible with th
 
 ## Requirements
 
-- [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Tested on 4.3.x, but 4.2.x should also work.
-- [Vagrant](http://www.vagrantup.com/downloads.html). Tested on 1.4.3
-- [Ansible](http://docs.ansible.com/intro_installation.html). Tested on 1.4.4
+- [VirtualBox](https://www.virtualbox.org/wiki/Downloads). Tested on 4.4.x, but 4.3.x should also work.
+- [Vagrant](http://www.vagrantup.com/downloads.html). Tested on 1.5.1
+- [Ansible](http://docs.ansible.com/intro_installation.html). Tested on 1.5.3
 
 
 ## Installation

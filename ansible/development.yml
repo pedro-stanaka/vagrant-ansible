@@ -3,6 +3,9 @@
   hosts: development
   user: vagrant
   sudo: yes
+  vars: 
+    server_hostname: app.dev
+    server_root: /vagrant/app/webroot
 
   roles:
     - system
